@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教练申请 - 海特网球</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            < img src="images/hait-logo.png" alt="海特网球logo" class="logo">
+            <div class="title">
+                <h1>海特网球教练招募</h1>
+                <p>加入海特专业教练团队，共同培养卓越网球人才</p >
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            首页
+            招聘要求
+            福利待遇
+            立即申请
+        </div>
+    </nav>
+    
+    <section class="container">
+        <h2>海特网球教练职位申请</h2>
+        
+        <form id="coach-application" action="submit-application.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">姓名*</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="gender">性别</label>
+                <select id="gender" name="gender">
+                    <option value="male">男</option>
+                    <option value="female">女</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="birthdate">出生日期</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">联系电话*</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">电子邮箱*</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="address">居住地址</label>
+                <input type="text" id="address" name="address">
+            </div>
+            
+            <div class="form-group">
+                <label for="experience">网球教学经验(年)*</label>
+                <input type="number" id="experience" name="experience" min="0" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="level">最高运动等级</label>
+                <select id="level" name="level">
+                    <option value="">请选择</option>
+                    <option value="international">国际级运动健将</option>
+                    <option value="national">运动健将</option>
+                    <option value="first">一级运动员</option>
+                    <option value="second">二级运动员</option>
+                    <option value="third">三级运动员</option>
+                    <option value="none">无</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="certification">教练资格证书</label>
+                <input type="text" id="certification" name="certification" placeholder="如ITF、PTR等">
+            </div>
+            
+            <div class="form-group">
+                <label for="education">最高学历</label>
+                <select id="education" name="education">
+                    <option value="">请选择</option>
+                    <option value="doctor">博士</option>
+                    <option value="master">硕士</option>
+                    <option value="bachelor">本科</option>
+                    <option value="college">大专</option>
+                    <option value="highschool">
