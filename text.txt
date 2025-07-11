@@ -1,0 +1,10 @@
+tennis-coach-website/        （主文件夹）
+├── index.html              （首页）
+├── requirements.html       （招聘要求页）
+├── benefits.html           （福利待遇页）
+├── apply.html              （申请页）
+├── images/                 （图片文件夹）
+│   ├── tennis-coach.jpg    （示例图片）
+│   └── (其他图片资源)
+└── css/                    （CSS文件夹，可选）
+    └── style.css           （如果CSS代码很多，可提取到这里）
